@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dennis\\Desktop\\Catalog\\Catalog.csproj": {}
+    "/Users/dennisf_egov/Desktop/Catalog/Catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dennis\\Desktop\\Catalog\\Catalog.csproj": {
+    "/Users/dennisf_egov/Desktop/Catalog/Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dennis\\Desktop\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "/Users/dennisf_egov/Desktop/Catalog/Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "C:\\Users\\Dennis\\Desktop\\Catalog\\Catalog.csproj",
-        "packagesPath": "C:\\Users\\Dennis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dennis\\Desktop\\Catalog\\obj\\",
+        "projectPath": "/Users/dennisf_egov/Desktop/Catalog/Catalog.csproj",
+        "packagesPath": "/Users/dennisf_egov/.nuget/packages/",
+        "outputPath": "/Users/dennisf_egov/Desktop/Catalog/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dennis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dennisf_egov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -53,6 +53,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
